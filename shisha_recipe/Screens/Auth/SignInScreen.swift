@@ -5,6 +5,8 @@ struct SignInScreen: View {
     @State private var emailAddress: String = ""
     @State private var password: String = ""
     @State private var errorMessage: String?
+    let onSignInSuccess: () -> Void
+    let onSignUpRequest: () -> Void
 
     var body: some View {
         VStack {
@@ -25,12 +27,17 @@ struct SignInScreen: View {
             .foregroundColor(.white)
             .background(.blue)
             .cornerRadius(25)
+            .padding()
             
             if let errorMessage = errorMessage {
                 Text(errorMessage)
                     .foregroundColor(.red)
                     .padding()
             }
+            Button("新規登録がまだの方") {
+                onSignUpRequest()
+            }
+            
         }
     }
     
@@ -39,13 +46,10 @@ struct SignInScreen: View {
             switch result {
             case .success(let user):
                 print("🎉ログイン成功")
+                onSignInSuccess()
             case .failure(let error):
                 errorMessage = error.localizedDescription
             }
         }
     }
-}
-
-#Preview {
-    SignInScreen()
 }

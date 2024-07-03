@@ -7,6 +7,8 @@ struct SignUpScreen: View {
     @State private var name: String = ""
     @State private var showError: Bool = false
     @State private var errorMessage: String = ""
+    let onSignUpSuccess: () -> Void
+    let onSignInRequest: () -> Void
     
     var body: some View {
         VStack {
@@ -30,6 +32,11 @@ struct SignUpScreen: View {
             .foregroundColor(.white)
             .background(.blue)
             .cornerRadius(25)
+            .padding()
+            Button("ログインへ") {
+                onSignInRequest()
+            }
+            
         }
     }
     
@@ -38,14 +45,11 @@ struct SignUpScreen: View {
             switch result {
             case .success(let user):
                 print("新規登録完了: \(user.name)")
+                onSignUpSuccess()
             case .failure(let error):
                 errorMessage = error.localizedDescription
                 showError = true
             }
         }
     }
-}
-
-#Preview {
-    SignUpScreen()
 }
