@@ -1,24 +1,24 @@
-//
-//  ContentView.swift
-//  shisha_recipe
-//
-//  Created by 拓実 on 2024/06/28.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var currentScreen: AppScreen = .signIn
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            switch currentScreen {
+            case .signIn:
+                SignInScreen(
+                    onSignInSuccess: { self.currentScreen = .home },
+                    onSignUpRequest: { self.currentScreen = .signUp }
+                )
+            case .signUp:
+                SignUpScreen(
+                    onSignUpSuccess: { self.currentScreen = .home },
+                    onSignInRequest: { self.currentScreen = .signIn }
+                )
+            case .home:
+                HomeScreen()
+            }
         }
-        .padding()
     }
-}
-
-#Preview {
-    SignInScreen()
 }

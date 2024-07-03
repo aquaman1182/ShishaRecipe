@@ -23,6 +23,18 @@
 		E1A2C58C2C2EC34D00A7D812 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E1A2C58B2C2EC34D00A7D812 /* FirebaseAuth */; };
 		E1A2C58E2C2EC35900A7D812 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E1A2C58D2C2EC35900A7D812 /* FirebaseFirestore */; };
 		E1D5B9112C2ECBCA0025D239 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1D5B9102C2ECBCA0025D239 /* GoogleService-Info.plist */; };
+		E1D5B9142C2F9D620025D239 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9132C2F9D620025D239 /* HomeScreen.swift */; };
+		E1D5B9172C2F9E170025D239 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9162C2F9E170025D239 /* SearchBar.swift */; };
+		E1D5B91A2C2FA7B10025D239 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9192C2FA7B10025D239 /* AppScreen.swift */; };
+		E1D5B91F2C3278330025D239 /* ShishaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B91E2C3278330025D239 /* ShishaRecipe.swift */; };
+		E1D5B9212C32DB080025D239 /* ShishaMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9202C32DB080025D239 /* ShishaMaterial.swift */; };
+		E1D5B9242C339B9F0025D239 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9232C339B9F0025D239 /* RecipeCardView.swift */; };
+		E1D5B9262C339D1B0025D239 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9252C339D1B0025D239 /* RecipeListView.swift */; };
+		E1D5B9292C3575A20025D239 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9282C3575A10025D239 /* TabBarView.swift */; };
+		E1D5B92F2C3576A30025D239 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B92E2C3576A30025D239 /* ProfileScreen.swift */; };
+		E1D5B9312C3586A60025D239 /* RecipeDetaileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9302C3586A60025D239 /* RecipeDetaileScreen.swift */; };
+		E1D5B9332C3588D50025D239 /* RecipePostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9322C3588D50025D239 /* RecipePostScreen.swift */; };
+		E1D5B9352C359BCF0025D239 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B9342C359BCF0025D239 /* AppTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +48,18 @@
 		E1A2C5832C2EB06F00A7D812 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E1A2C5882C2EB2C100A7D812 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		E1D5B9102C2ECBCA0025D239 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1D5B9132C2F9D620025D239 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E1D5B9162C2F9E170025D239 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E1D5B9192C2FA7B10025D239 /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		E1D5B91E2C3278330025D239 /* ShishaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaRecipe.swift; sourceTree = "<group>"; };
+		E1D5B9202C32DB080025D239 /* ShishaMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaMaterial.swift; sourceTree = "<group>"; };
+		E1D5B9232C339B9F0025D239 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		E1D5B9252C339D1B0025D239 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		E1D5B9282C3575A10025D239 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		E1D5B92E2C3576A30025D239 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		E1D5B9302C3586A60025D239 /* RecipeDetaileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetaileScreen.swift; sourceTree = "<group>"; };
+		E1D5B9322C3588D50025D239 /* RecipePostScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePostScreen.swift; sourceTree = "<group>"; };
+		E1D5B9342C359BCF0025D239 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +121,8 @@
 		E1A2C56B2C2E3DA400A7D812 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E1A2C5832C2EB06F00A7D812 /* User.swift */,
+				E1D5B91D2C3278110025D239 /* Data */,
+				E1D5B9182C2FA7A00025D239 /* enums */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,7 +130,10 @@
 		E1A2C56C2C2E3DAE00A7D812 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E1D5B9222C339B7A0025D239 /* ShishaRecipe */,
+				E1D5B9152C2F9DFF0025D239 /* ViewParts */,
 				E1A2C5872C2EB2A300A7D812 /* Services */,
+				E1D5B9272C3575720025D239 /* TabBar */,
 				E1A2C5862C2EB23D00A7D812 /* Auth */,
 				E1A2C55F2C2E3CC400A7D812 /* ContentView.swift */,
 			);
@@ -142,6 +170,70 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D5B9122C2F9D340025D239 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B9132C2F9D620025D239 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E1D5B9152C2F9DFF0025D239 /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B9162C2F9E170025D239 /* SearchBar.swift */,
+				E1D5B9342C359BCF0025D239 /* AppTextField.swift */,
+			);
+			path = ViewParts;
+			sourceTree = "<group>";
+		};
+		E1D5B9182C2FA7A00025D239 /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B9192C2FA7B10025D239 /* AppScreen.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		E1D5B91D2C3278110025D239 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2C5832C2EB06F00A7D812 /* User.swift */,
+				E1D5B91E2C3278330025D239 /* ShishaRecipe.swift */,
+				E1D5B9202C32DB080025D239 /* ShishaMaterial.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1D5B9222C339B7A0025D239 /* ShishaRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B9232C339B9F0025D239 /* RecipeCardView.swift */,
+				E1D5B9252C339D1B0025D239 /* RecipeListView.swift */,
+				E1D5B9302C3586A60025D239 /* RecipeDetaileScreen.swift */,
+				E1D5B9322C3588D50025D239 /* RecipePostScreen.swift */,
+			);
+			path = ShishaRecipe;
+			sourceTree = "<group>";
+		};
+		E1D5B9272C3575720025D239 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B92D2C3576920025D239 /* Profile */,
+				E1D5B9122C2F9D340025D239 /* Home */,
+				E1D5B9282C3575A10025D239 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E1D5B92D2C3576920025D239 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B92E2C3576A30025D239 /* ProfileScreen.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,12 +319,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D5B9312C3586A60025D239 /* RecipeDetaileScreen.swift in Sources */,
 				E1A2C5602C2E3CC400A7D812 /* ContentView.swift in Sources */,
 				E1A2C5742C2E451400A7D812 /* SignInScreen.swift in Sources */,
+				E1D5B9292C3575A20025D239 /* TabBarView.swift in Sources */,
+				E1D5B9142C2F9D620025D239 /* HomeScreen.swift in Sources */,
+				E1D5B9332C3588D50025D239 /* RecipePostScreen.swift in Sources */,
 				E1A2C55E2C2E3CC400A7D812 /* shisha_recipeApp.swift in Sources */,
+				E1D5B91A2C2FA7B10025D239 /* AppScreen.swift in Sources */,
+				E1D5B91F2C3278330025D239 /* ShishaRecipe.swift in Sources */,
 				E1A2C5892C2EB2C100A7D812 /* AuthenticationService.swift in Sources */,
+				E1D5B9172C2F9E170025D239 /* SearchBar.swift in Sources */,
+				E1D5B9242C339B9F0025D239 /* RecipeCardView.swift in Sources */,
 				E1A2C5842C2EB06F00A7D812 /* User.swift in Sources */,
 				E1A2C56F2C2E3E2000A7D812 /* SignUpScreen.swift in Sources */,
+				E1D5B9352C359BCF0025D239 /* AppTextField.swift in Sources */,
+				E1D5B9262C339D1B0025D239 /* RecipeListView.swift in Sources */,
+				E1D5B9212C32DB080025D239 /* ShishaMaterial.swift in Sources */,
+				E1D5B92F2C3576A30025D239 /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
