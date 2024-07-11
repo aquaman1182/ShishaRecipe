@@ -213,7 +213,6 @@
 				E1D5B9232C339B9F0025D239 /* RecipeCardView.swift */,
 				E1D5B9252C339D1B0025D239 /* RecipeListView.swift */,
 				E1D5B9302C3586A60025D239 /* RecipeDetaileScreen.swift */,
-				E1D5B9322C3588D50025D239 /* RecipePostScreen.swift */,
 			);
 			path = ShishaRecipe;
 			sourceTree = "<group>";
@@ -221,6 +220,7 @@
 		E1D5B9272C3575720025D239 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				E1D5B9362C35CAEB0025D239 /* Post */,
 				E1D5B92D2C3576920025D239 /* Profile */,
 				E1D5B9122C2F9D340025D239 /* Home */,
 				E1D5B9282C3575A10025D239 /* TabBarView.swift */,
@@ -234,6 +234,14 @@
 				E1D5B92E2C3576A30025D239 /* ProfileScreen.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		E1D5B9362C35CAEB0025D239 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B9322C3588D50025D239 /* RecipePostScreen.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
